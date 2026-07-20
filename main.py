@@ -4,6 +4,7 @@ import hmac
 import secrets
 import string
 import time
+import Flask-Limiter
 
 app = Flask(__name__)
 # แสดง JSON ตามลำดับที่เขียนไว้ใน Dictionary
